@@ -1,0 +1,71 @@
+[
+  {
+    "title": "Extensiones de Pestañas",
+    "description": "La mejor oportunidad ahora",
+    "image": "/pestañas/portada-pestañas.webp",
+    "slug": "pestañas",
+    "categories": [
+      {
+        "service_id": 1,
+        "slug": "clasicas",
+        "title": "Clásicas",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla odio nec quam volutpat, sit amet lobortis arcu ullamcorper.",
+        "gallery": [
+          { "image": "/project2.png", "alt": "Imagen 1" },
+          { "image": "/project2.png", "alt": "Imagen 2" },
+          { "image": "/project2.png", "alt": "Imagen 1" },
+          { "image": "/project2.png", "alt": "Imagen 2" }
+        ],
+        "image": "/zones.png"
+      },
+      {
+        "service_id": 2,
+        "slug": "efecto-rimel",
+        "title": "Efecto Rimel",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla odio nec quam volutpat, sit amet lobortis arcu ullamcorper.",
+        "gallery": [
+          { "image": "/project2.png", "alt": "Imagen 1" },
+          { "image": "/project2.png", "alt": "Imagen 2" },
+          { "image": "/project2.png", "alt": "Imagen 1" },
+          { "image": "/project2.png", "alt": "Imagen 2" }
+        ],
+        "image": "/zones.png"
+      }
+    ]
+  },
+  {
+    "title": "Lifting",
+    "description": "La mejor oportunidad ahora",
+    "image": "/lifting/portada-lifting.webp",
+    "slug": "lifting",
+    "categories": [
+      {
+        "service_id": 1,
+        "slug": "clasicas",
+        "title": "Lifting 1",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla odio nec quam volutpat, sit amet lobortis arcu ullamcorper.",
+        "gallery": [
+          { "image": "/project2.png", "alt": "Imagen 1" },
+          { "image": "/project2.png", "alt": "Imagen 2" },
+          { "image": "/project2.png", "alt": "Imagen 1" },
+          { "image": "/project2.png", "alt": "Imagen 2" }
+        ],
+        "image": "/zones.png"
+      },
+      {
+        "service_id": 1,
+        "slug": "efecto-rimel",
+        "title": "Lifting 2",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla odio nec quam volutpat, sit amet lobortis arcu ullamcorper.",
+        "gallery": [
+          { "image": "/project2.png", "alt": "Imagen 1" },
+          { "image": "/project2.png", "alt": "Imagen 2" },
+          { "image": "/project2.png", "alt": "Imagen 1" },
+          { "image": "/project2.png", "alt": "Imagen 2" }
+        ],
+        "image": "/zones.png"
+      }
+    ]
+  }
+
+]

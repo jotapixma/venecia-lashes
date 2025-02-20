@@ -1,0 +1,19 @@
+
+.aboutMe{
+  padding: 2rem 0;
+  .imgMask{
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  .infoPanel{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    padding: 1rem;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+}
