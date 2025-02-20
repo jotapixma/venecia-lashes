@@ -11,10 +11,10 @@
         "title": "Clásicas",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla odio nec quam volutpat, sit amet lobortis arcu ullamcorper.",
         "gallery": [
-          { "image": "/project2.png", "alt": "Imagen 1" },
-          { "image": "/project2.png", "alt": "Imagen 2" },
-          { "image": "/project2.png", "alt": "Imagen 1" },
-          { "image": "/project2.png", "alt": "Imagen 2" }
+          { "image": "/pestañas/portada-pestañas.webp", "alt": "Imagen 1" },
+          { "image": "/pestañas/portada-pestañas.webp", "alt": "Imagen 2" },
+          { "image": "/pestañas/portada-pestañas.webp", "alt": "Imagen 1" },
+          { "image": "/pestañas/portada-pestañas.webp", "alt": "Imagen 2" }
         ],
         "image": "/zones.png"
       },
@@ -24,10 +24,10 @@
         "title": "Efecto Rimel",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla odio nec quam volutpat, sit amet lobortis arcu ullamcorper.",
         "gallery": [
-          { "image": "/project2.png", "alt": "Imagen 1" },
-          { "image": "/project2.png", "alt": "Imagen 2" },
-          { "image": "/project2.png", "alt": "Imagen 1" },
-          { "image": "/project2.png", "alt": "Imagen 2" }
+          { "image": "/pestañas/portada-pestañas.webp", "alt": "Imagen 1" },
+          { "image": "/pestañas/portada-pestañas.webp", "alt": "Imagen 2" },
+          { "image": "/pestañas/portada-pestañas.webp", "alt": "Imagen 1" },
+          { "image": "/pestañas/portada-pestañas.webp", "alt": "Imagen 2" }
         ],
         "image": "/zones.png"
       }
@@ -45,10 +45,10 @@
         "title": "Lifting 1",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla odio nec quam volutpat, sit amet lobortis arcu ullamcorper.",
         "gallery": [
-          { "image": "/project2.png", "alt": "Imagen 1" },
-          { "image": "/project2.png", "alt": "Imagen 2" },
-          { "image": "/project2.png", "alt": "Imagen 1" },
-          { "image": "/project2.png", "alt": "Imagen 2" }
+          { "image": "/lifting/portada-lifting.webp", "alt": "Imagen 1" },
+          { "image": "/lifting/portada-lifting.webp", "alt": "Imagen 2" },
+          { "image": "/lifting/portada-lifting.webp", "alt": "Imagen 1" },
+          { "image": "/lifting/portada-lifting.webp", "alt": "Imagen 2" }
         ],
         "image": "/zones.png"
       },
@@ -58,10 +58,10 @@
         "title": "Lifting 2",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla odio nec quam volutpat, sit amet lobortis arcu ullamcorper.",
         "gallery": [
-          { "image": "/project2.png", "alt": "Imagen 1" },
-          { "image": "/project2.png", "alt": "Imagen 2" },
-          { "image": "/project2.png", "alt": "Imagen 1" },
-          { "image": "/project2.png", "alt": "Imagen 2" }
+          { "image": "/lifting/portada-lifting.webp", "alt": "Imagen 1" },
+          { "image": "/lifting/portada-lifting.webp", "alt": "Imagen 2" },
+          { "image": "/lifting/portada-lifting.webp", "alt": "Imagen 1" },
+          { "image": "/lifting/portada-lifting.webp", "alt": "Imagen 2" }
         ],
         "image": "/zones.png"
       }

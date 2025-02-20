@@ -1,37 +1,34 @@
 .cardBox{
+  border-radius: 6px;
+  overflow: hidden;
   position: relative;
-  .imgMask{
-    display: flex;
-    &::before{
+  &__mask{
+    &:before{
       position: absolute;
       content: "";
       left: 0;
       top: 0;
       right: 0;
       bottom: 0;
-      background: rgba(32, 33, 35, 0.5);
+      background: rgba(32, 33, 35, 0.2);
+      transition: all 0.5s ease-in-out;
       z-index: 10;
+    } 
+    img{
+      transition: all .25s ease-in-out;
+      &:hover{
+        transform: scale(1.1);
+      }
     }
   }
-  .textBox{
+  &__title{
     position: absolute;
-    top: 50%;
     left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    z-index: 100;
+    transform: translate(-50%, -50%);
+    bottom: 16px;
+    width: 100%;
+    z-index: 20;
+    color: $white;
     text-align: center;
-    .title{
-      color: $primary;
-      font-size: 2.5rem;
-    }
-    .description{
-      font-size: 1.3rem;
-      color: $white;
-      font-weight: 500;
-    }
-  }
-  &:hover{
-    cursor: pointer;
-    box-shadow: 0 1px 8px rgb(154 154 154/10%), 0 3px 3px rgb(178 178 178/10%), 0 3px 21px #e8ebfb;
   }
 }

@@ -8,27 +8,6 @@ import styles from './Services.module.scss';
 
 console.log('data:', data);
 
-// let items = [
-//   {
-//     "id": '1',
-//     "image": '/pestañas/portada-pestañas.webp',
-//     "title": 'Extensiones de Pestañas',
-//     "url": '/servicios',
-//   },
-//   {
-//     "id": '2',
-//     "image": '/lifting/portada-lifting.webp',
-//     "title": 'Lifting',
-//     "url": '/servicios',
-//   },
-//   {
-//     "id": '3',
-//     "image": '/cejas/portada-cejas.webp',
-//     "title": 'Cejas',
-//     "url": '/servicios',
-//   },
-// ];
-
 const Support = ({title}) => {
   
   return (  

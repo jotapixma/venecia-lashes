@@ -5,6 +5,7 @@ import styles from './SingleService.module.scss';
 import ContactForm from '../ContactForm/ContactForm';
 import ContentPanel from './ContentPanel/ContentPanel';
 import Image from "next/legacy/image";
+import DeliveryCard from '../Cards/DeliveryCard/DeliveryCard';
 
 const SingleService = ({service}) => {
 
@@ -15,14 +16,7 @@ const SingleService = ({service}) => {
       <Container>
         <Grid container spacing={2}>
           {service && service.categories.map((item) => (
-            <Grid key={item.id} item xs={12} md={4}>
-              <article className={styles.cardBox}>
-                <figure className={styles.cardBox__mask}>
-                  <Image src={item.image} width={2886} height={3606} layout="responsive" />
-                </figure>
-                <h2 className={styles.cardBox__title}>{item.title}</h2>
-              </article>
-            </Grid>
+            <DeliveryCard category={item}/>
           ))}
         </Grid>
       </Container>
