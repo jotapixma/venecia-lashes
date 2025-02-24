@@ -9,10 +9,8 @@
         "service_id": 1,
         "slug": "clasicas",
         "title": "Clásicas",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla odio nec quam volutpat, sit amet lobortis arcu ullamcorper.",
+        "description": "Técnica en la que se aplica una sola extensión a cada pestaña natural. Este método es ideal para quienes buscan un aspecto más sutil y natural",
         "gallery": [
-          { "image": "/pestañas/portada-pestañas.webp", "alt": "Imagen 1" },
-          { "image": "/pestañas/portada-pestañas.webp", "alt": "Imagen 2" },
           { "image": "/pestañas/portada-pestañas.webp", "alt": "Imagen 1" },
           { "image": "/pestañas/portada-pestañas.webp", "alt": "Imagen 2" }
         ],
@@ -22,10 +20,19 @@
         "service_id": 2,
         "slug": "efecto-rimel",
         "title": "Efecto Rimel",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla odio nec quam volutpat, sit amet lobortis arcu ullamcorper.",
+        "description": "Se aplica de 3 a 4 extensiones (Abanicos cerrados o semi-abierto) por cada pestaña natural, dando un aspecto o resultado más denso o voluminoso.",
         "gallery": [
           { "image": "/pestañas/portada-pestañas.webp", "alt": "Imagen 1" },
-          { "image": "/pestañas/portada-pestañas.webp", "alt": "Imagen 2" },
+          { "image": "/pestañas/portada-pestañas.webp", "alt": "Imagen 2" }
+        ],
+        "image": "/zones.png"
+      },
+      {
+        "service_id": 4,
+        "slug": "volumen-tecnologico",
+        "title": "Volumen Tecnológico",
+        "description": "¡Lo mas nuevo en pestañas! Son abanicos pre-armados (abiertos) los hay desde 3D hasta 6D creando así diferentes acabados, desde un volumen natural a uno más dramático",
+        "gallery": [
           { "image": "/pestañas/portada-pestañas.webp", "alt": "Imagen 1" },
           { "image": "/pestañas/portada-pestañas.webp", "alt": "Imagen 2" }
         ],
@@ -41,25 +48,95 @@
     "categories": [
       {
         "service_id": 1,
-        "slug": "clasicas",
-        "title": "Lifting 1",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla odio nec quam volutpat, sit amet lobortis arcu ullamcorper.",
+        "slug": "lifting-pestañas",
+        "title": "Lifting de Pestañas",
+        "description": "Pestañas elevadas, es un tratamiento que alarga, ondula y levanta tus pestañas naturales desde la raíz, ideal para quienes buscan un look muy natural, duración de 4-6 semanas. Lifting de pestaña / Incluye: Tinte(opcional) + botox + cerámica",
         "gallery": [
-          { "image": "/lifting/portada-lifting.webp", "alt": "Imagen 1" },
-          { "image": "/lifting/portada-lifting.webp", "alt": "Imagen 2" },
           { "image": "/lifting/portada-lifting.webp", "alt": "Imagen 1" },
           { "image": "/lifting/portada-lifting.webp", "alt": "Imagen 2" }
         ],
         "image": "/zones.png"
       },
       {
+        "service_id": 2,
+        "slug": "reversion-de-lifting",
+        "title": "Reversión de Lifting + Aplicación de Botox",
+        "description": "La reversión de lifting se realiza en casos de lifting mal ejecutado, pestañas quemadas o desiguales, o para quienes desean aplicar extensiones de pestañas próximamente. Este procedimiento incluye un tratamiento de botox para nutrir y proteger las pestañas, restaurando su salud y apariencia.",
+        "gallery": [
+          { "image": "/lifting/portada-lifting.webp", "alt": "Imagen 1" },
+          { "image": "/lifting/portada-lifting.webp", "alt": "Imagen 2" }
+        ],
+        "image": "/zones.png"
+      },
+      {
+        "service_id": 3,
+        "slug": "bomba-de-botox",
+        "title": "Bomba de Botox",
+        "description": "Tratamiento reconstructivo de la hebra capilar (para cejas y pestañas) que consta de 4 sesiones separadas por 15 días entre cada una.",
+        "gallery": [
+          { "image": "/lifting/portada-lifting.webp", "alt": "Imagen 1" },
+          { "image": "/lifting/portada-lifting.webp", "alt": "Imagen 2" }
+        ],
+        "image": "/zones.png"
+      },
+      {
+        "service_id": 4,
+        "slug": "bomba-de-botox-4-sesiones",
+        "title": "Bomba de Botox (4 sesiones)",
+        "description": "Tratamiento reconstructivo de la hebra capilar (para cejas y pestañas) que consta de 4 sesiones separadas por 15 días entre cada una.",
+        "gallery": [
+          { "image": "/lifting/portada-lifting.webp", "alt": "Imagen 1" },
+          { "image": "/lifting/portada-lifting.webp", "alt": "Imagen 2" }
+        ],
+        "image": "/zones.png"
+      }
+    ]
+  },
+  {
+    "title": "Cejas",
+    "description": "La mejor oportunidad ahora",
+    "image": "/cejas/portada-cejas.webp",
+    "slug": "cejas",
+    "categories": [
+      {
         "service_id": 1,
-        "slug": "efecto-rimel",
-        "title": "Lifting 2",
+        "slug": "diseño-de-cejas",
+        "title": "Diseño de cejas",
+        "description": "La depilación con hilo o hindú, combinada con el visagismo y diseño de cejas, ofrece beneficios increíbles, mayor duración en el crecimiento de las cejas, menor irritación en la piel, y previene la pérdida de elasticidad en los párpados. Es una técnica suave, con menor probabilidad de causar alergias, recomendada para pieles sensibles, maduras, con dermatitis o para quienes desean cuidar más su piel",
+        "gallery": [
+          { "image": "/lifting/portada-lifting.webp", "alt": "Imagen 1" },
+          { "image": "/lifting/portada-lifting.webp", "alt": "Imagen 2" }
+        ],
+        "image": "/zones.png"
+      },
+      {
+        "service_id": 2,
+        "slug": "diseño-de-cejas-2",
+        "title": "Diseño de Cejas + Tinte: Incluye, Visagismo(diseño)+ Tinte + Hidratación",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fringilla odio nec quam volutpat, sit amet lobortis arcu ullamcorper.",
         "gallery": [
           { "image": "/lifting/portada-lifting.webp", "alt": "Imagen 1" },
-          { "image": "/lifting/portada-lifting.webp", "alt": "Imagen 2" },
+          { "image": "/lifting/portada-lifting.webp", "alt": "Imagen 2" }
+        ],
+        "image": "/zones.png"
+      },
+      {
+        "service_id": 3,
+        "slug": "laminacion-de-cejas",
+        "title": "Laminación de Cejas",
+        "description": "Este tratamiento consiste en modificar la forma natural del vello para rellenar espacios, dar mayor definición o aumentar el grosor. Es una opción ideal para quienes tienen vellos rebeldes, cejas delgadas o gruesas que buscan una apariencia más abundante, o para aquellas personas que desean cubrir huecos y realzar la forma de sus cejas. La duración del efecto es de 4 a 6 semanas( Incluye: diseño de cejas+ tinte(opcional)+ botox",
+        "gallery": [
+          { "image": "/lifting/portada-lifting.webp", "alt": "Imagen 1" },
+          { "image": "/lifting/portada-lifting.webp", "alt": "Imagen 2" }
+        ],
+        "image": "/zones.png"
+      },
+      {
+        "service_id": 4,
+        "slug": "lami-vene",
+        "title": "Lamivene",
+        "description": "Laminado de cejas+Lifting de pestañas",
+        "gallery": [
           { "image": "/lifting/portada-lifting.webp", "alt": "Imagen 1" },
           { "image": "/lifting/portada-lifting.webp", "alt": "Imagen 2" }
         ],

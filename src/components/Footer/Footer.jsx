@@ -15,21 +15,21 @@ const Footer = () => {
     //   "title": 'facebook',
     //   "link": '/',
     // },
-    // {
-    //   "id": '2',
-    //   "title": 'whatsapp',
-    //   "link": '/',
-    // },
+    {
+      "id": '2',
+      "title": 'whatsapp',
+      "link": '/',
+    },
     {
       "id": '3',
       "title": 'instagram',
       "link": '/',
     },
-    {
-      "id": '4',
-      "title": 'linkedin',
-      "link": '/',
-    }
+    // {
+    //   "id": '4',
+    //   "title": 'linkedin',
+    //   "link": '/',
+    // }
   ];
 
   return (  
@@ -39,18 +39,18 @@ const Footer = () => {
           <div className={styles.itemColumn}>
             <ul className={styles.unorderList}>
               <span>Contacto</span>
-              <li>+56 9 6104 5977</li>
-              <li>contacto@vesta.cl</li>
-              <li>Dirección</li>
+              <li>+56 9 9017 3191</li>
+              <li>venecialynette@gmail.com</li>
             </ul>
           </div>
-          {/* <div className={styles.itemColumn}>
+          <div className={styles.itemColumn}>
             <ul className={styles.unorderList}>
               <span>Navegación</span>
-              <li>Proyectos</li>
-              <li>Contacto</li>
+              <Link href="/servicios">
+                <li>Servicios</li>
+              </Link>
             </ul>
-          </div> */}
+          </div>
           <div className={styles.itemColumn}>
             <ul className={styles.unorderList}>
               <span>Siguenos</span>
@@ -66,12 +66,11 @@ const Footer = () => {
           <div className={styles.itemColumn}>
             <Link href="/">
               <figure className={styles.footerLogo}>
-                <Image 
-                  src="/logo-footer.svg"
-                  width={162} height={25} 
-                  layout="intrinsic"
-                  alt="logo"
-                />
+              <Image 
+                src="/logotipo-white.png"
+                width={2887} height={703} 
+                alt="logo"
+              />
               </figure>
             </Link>
           </div>

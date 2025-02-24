@@ -1,5 +1,5 @@
 import React from 'react';
-import WhoArePage from '@/components/WhoArePage/WhoArePage'
+import ContactModule from '@/components/ContactModule/ContactModule'
 import Layout from '@/components/Layouts/Layout/Layout';
 import Head from 'next/head';
 
@@ -7,11 +7,11 @@ export default function contactanos() {
   return (
     <React.Fragment>
        <Head>
-        <title>Quiénes Somos</title>
+        <title>Agenda</title>
         <meta name="description" content=""/>
       </Head>
       <Layout>
-        <WhoArePage/>
+        <ContactModule/>
       </Layout>
     </React.Fragment>
   )

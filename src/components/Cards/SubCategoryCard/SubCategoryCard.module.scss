@@ -1,0 +1,18 @@
+.cardBox{
+  border-radius: 6px;
+  overflow: hidden;
+  position: relative;
+  padding: 2rem 0;
+  background-color: $white;
+  .textBox{
+    padding: 0 2rem;
+    text-align: center;
+  }
+  &.bgGray{
+    background-color: $bg_default_2;
+  }
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}

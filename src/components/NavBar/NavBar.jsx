@@ -21,16 +21,16 @@ import styles from './NavBar.module.scss';
 const drawerWidth = 240;
 const navItems = [
   {
-    'title': 'Proyectos',
-    'href': '/proyectos'
+    'title': 'Servicios',
+    'href': '/servicios'
   },
   {
-    'title': 'Quienes Somos',
-    'href': '/quienes-somos'
+    'title': 'Sobre Mí',
+    'href': '/sobre-mi'
   },
   {
-    'title': 'Contáctanos',
-    'href': '/contactanos'
+    'title': 'Agenda Aquí',
+    'href': '/agenda'
   },
   // {
   //   'title': 'Item 4',

@@ -6,8 +6,6 @@ import ServiceCard from '../../components/Cards/ServiceCard/ServiceCard';
 import data from '@/utils/data.json';
 import styles from './Services.module.scss';
 
-console.log('data:', data);
-
 const Support = ({title}) => {
   
   return (  

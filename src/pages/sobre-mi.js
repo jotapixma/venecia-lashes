@@ -1,17 +1,17 @@
 import React from 'react';
-import ContactModule from '@/components/ContactModule/ContactModule'
+import AboutMe from '@/components/AboutMe/AboutMe'
 import Layout from '@/components/Layouts/Layout/Layout';
 import Head from 'next/head';
 
-export default function contactanos() {
+export default function sobre_mi() {
   return (
     <React.Fragment>
        <Head>
-        <title>Contactanos</title>
-        <meta name="description" content=""/>
+        <title>Sobre mí</title>
+        <meta name="description" content="Naturalmente bella"/>
       </Head>
       <Layout>
-        <ContactModule/>
+        <AboutMe/>
       </Layout>
     </React.Fragment>
   )

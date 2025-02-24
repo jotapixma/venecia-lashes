@@ -1,17 +1,18 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import Grid from "@mui/material/Grid";
 import Image from "next/legacy/image";
 import Container from "@mui/material/Container";
 import styles from './AboutMe.module.scss'
 
 const AboutMe = () => {
+
   return ( 
     <section className={styles.aboutMe}>
       <Container>
         <Grid container spacing={0}>
           <Grid item xs={12} md={6}>
             <figure className={styles.imgMask}>
-              <Image src='/home/about-me.jpg' width={3024} height={4032} layout='responsive'/>
+              <Image src='/home/about-me.jpeg' width={760} height={896} layout='responsive'/>
             </figure>
           </Grid>
           <Grid item xs={12} md={6}>

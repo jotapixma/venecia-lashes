@@ -9,7 +9,7 @@ const FooterWinch = () => {
       <div className={styles.footerWinch__info}>
       </div>
       <div className={styles.footerWinch__rights}>
-        <span className={styles.textBrand}>Vesta Inmobiliario 2024 © Todos los derechos reservados</span>
+        <span className={styles.textBrand}>Venecia Ly 2025 © Todos los derechos reservados</span>
       </div>
     </div>
   );
