@@ -6,9 +6,7 @@ import { Container } from '@mui/material';
 import styles from './SubCategoryCard.module.scss';
 
 const SubCategoryCard = ({category, isOdd}) => {
-  // console.log('category:', category);
-  console.log('isOdd:', isOdd);
-
+  
   return ( 
     <article className={`${styles.cardBox} ${isOdd && styles.bgGray}`}>
       <Container>
