@@ -2,6 +2,7 @@
   position: relative;
   .hero{
     position: relative;
+    background-color: $secondary;
     .bannerMask{
       position: relative;
       &:before{

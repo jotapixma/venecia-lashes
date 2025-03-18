@@ -22,7 +22,7 @@ let items = [
   {
     "id": '1',
     "image": '/home/slider-home.jpg',
-    "image_mobile": '/slider-mobile.jpeg',
+    "image_mobile": '/slider-1.jpg',
     "title": 'Naturalmente tú',
     "button_text": 'Contáctanos',
     "url_link" : '#contact'
@@ -30,7 +30,7 @@ let items = [
   {
     "id": '2',
     "image": '/slider-1.jpg',
-    "image_mobile": '/slider-mobile.jpeg',
+    "image_mobile": '/slider-1.jpg',
     "title": 'Naturalmente tú',
     "button_text": 'Contáctanos',
     "url_link": '#contact',
@@ -105,7 +105,7 @@ export default function Hero({sliderItems}) {
                         alt={item.title} 
                         priority={true}
                         layout="responsive"
-                        objectFit='cover'
+                        objectFit='contain'
                       />
                     </figure>
                   )}
