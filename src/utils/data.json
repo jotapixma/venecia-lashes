@@ -6,13 +6,23 @@
     "slug": "pestañas",
     "categories": [
       {
+        "service_id": 10,
+        "slug": "volumen-tecnologico",
+        "title": "Efecto Kim K",
+        "description": "El Efecto Kim Kardashian en extensiones de pestañas es perfecto para quienes buscan una mirada dramática pero elegante.👸Se caracteriza por combinar pestañas de diferentes longitudes, creando un look con picos que añaden volumen y dimensión.",
+        "gallery": [
+          { "image": "/pestañas/kim-k-1.jpeg", "alt": "Imagen 1" },
+          { "image": "/pestañas/kim-k-2.jpeg", "alt": "Imagen 2" }
+        ],
+        "image": "/zones.png"
+      },
+      {
         "service_id": 1,
         "slug": "clasicas",
         "title": "Clásicas",
         "description": "Técnica en la que se aplica una sola extensión a cada pestaña natural. Este método es ideal para quienes buscan un aspecto más sutil y natural",
         "gallery": [
-          { "image": "/pestañas/portada-pestañas.webp", "alt": "Imagen 1" },
-          { "image": "/pestañas/portada-pestañas.webp", "alt": "Imagen 2" }
+          { "image": "/pestañas/clasicas.jpeg", "alt": "Imagen 1" }
         ],
         "image": "/zones.png"
       },
@@ -22,8 +32,7 @@
         "title": "Efecto Rimel",
         "description": "Se aplica de 3 a 4 extensiones (Abanicos cerrados o semi-abierto) por cada pestaña natural, dando un aspecto o resultado más denso o voluminoso.",
         "gallery": [
-          { "image": "/pestañas/portada-pestañas.webp", "alt": "Imagen 1" },
-          { "image": "/pestañas/portada-pestañas.webp", "alt": "Imagen 2" }
+          { "image": "/pestañas/rimel.jpeg", "alt": "Rimel" }
         ],
         "image": "/zones.png"
       },
@@ -33,8 +42,8 @@
         "title": "Volumen Tecnológico",
         "description": "¡Lo mas nuevo en pestañas! Son abanicos pre-armados (abiertos) los hay desde 3D hasta 6D creando así diferentes acabados, desde un volumen natural a uno más dramático",
         "gallery": [
-          { "image": "/pestañas/portada-pestañas.webp", "alt": "Imagen 1" },
-          { "image": "/pestañas/portada-pestañas.webp", "alt": "Imagen 2" }
+          { "image": "/pestañas/volumen-tecnologico-2.jpeg", "alt": "Imagen 1" },
+          { "image": "/pestañas/volumen-tecnologico-1.jpeg", "alt": "Imagen 2" }
         ],
         "image": "/zones.png"
       }
