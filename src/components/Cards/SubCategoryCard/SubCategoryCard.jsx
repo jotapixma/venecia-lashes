@@ -22,7 +22,7 @@ const SubCategoryCard = ({category, isOdd}) => {
               {category && category.gallery.map((item,index) => (
                 <Grid item xs={12} md={6} key={index}>
                   <figure className={styles.imgMask}>
-                    <Image src={item.image} width={2886} height={3606} layout="responsive" />
+                    <Image src={item.image} width={2886} height={3606} layout="responsive" alt="categoria de servicios" />
                   </figure> 
                 </Grid>
               ))}

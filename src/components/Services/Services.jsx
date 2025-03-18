@@ -17,8 +17,8 @@ const Support = ({title}) => {
           </div>
           <Box className={styles.supportBox}>
             <Grid container spacing={2}>
-              {data && data.map((item) => (
-                <Grid key={item.id} item xs={12} md={4}>
+              {data && data.map((item,index) => (
+                <Grid key={index} item xs={12} md={4}>
                   <ServiceCard item={item}/>
                 </Grid>
               ))}

@@ -11,7 +11,7 @@ const SupportCard = ({item}) => {
     <Link href={`/servicios/${item.slug}`}>
       <article className={styles.cardBox}>
         <figure className={styles.cardBox__mask}>
-          <Image src={item.image} width={2886} height={3606} layout="responsive" />
+          <Image src={item.image} width={2886} height={3606} layout="responsive" alt="services" />
         </figure>
         <h2 className={styles.cardBox__title}>{item.title}</h2>
       </article>
