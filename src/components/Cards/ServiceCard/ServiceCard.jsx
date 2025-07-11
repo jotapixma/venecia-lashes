@@ -8,15 +8,23 @@ const SupportCard = ({item}) => {
   const matchesMd = useMediaQuery('(min-width:900px)');
 
   return (  
-    <Link href={`/servicios/${item.slug}`}>
+    item.slug !== 'lifting' && item.slug !== 'cejas' ? (
+      <Link href={`/servicios/${item.slug}`}>
+        <article className={styles.cardBox}>
+          <figure className={styles.cardBox__mask}>
+            <Image src={item.image} width={832} height={1040} layout="responsive" alt="services" />
+          </figure>
+          <h2 className={styles.cardBox__title}>{item.title}</h2>
+        </article>
+      </Link>
+    ) : (
       <article className={styles.cardBox}>
         <figure className={styles.cardBox__mask}>
-          <Image src={item.image} width={2886} height={3606} layout="responsive" alt="services" />
+          <Image src={item.image} width={832} height={1040} layout="responsive" alt="services" />
         </figure>
         <h2 className={styles.cardBox__title}>{item.title}</h2>
       </article>
-    </Link>
-
+    )
   );
 }
  

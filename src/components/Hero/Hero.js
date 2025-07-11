@@ -27,14 +27,14 @@ let items = [
     "button_text": 'Contáctanos',
     "url_link" : '#contact'
   },
-  {
-    "id": '2',
-    "image": '/slider-1.jpg',
-    "image_mobile": '/slider-1.jpg',
-    "title": 'Naturalmente tú',
-    "button_text": 'Contáctanos',
-    "url_link": '#contact',
-  },
+  // {
+  //   "id": '2',
+  //   "image": '/slider-1.jpg',
+  //   "image_mobile": '/slider-1.jpg',
+  //   "title": 'Naturalmente tú',
+  //   "button_text": 'Contáctanos',
+  //   "url_link": '#contact',
+  // },
   // {
   //   "id": '3',
   //   "image": '/hero-4.jpg',
@@ -62,7 +62,7 @@ export default function Hero({sliderItems}) {
     <React.Fragment>
       <div className={styles.heroContainer}>
         {/* ${!showPrevArrow && styles.disabled} */}
-        <button type="button" className={`${styles.genericArrow} ${styles.leftArrow} `} onClick={handlePrevSlide}><ArrowBackIosIcon/></button>
+        {/* <button type="button" className={`${styles.genericArrow} ${styles.leftArrow} `} onClick={handlePrevSlide}><ArrowBackIosIcon/></button> */}
         <Swiper
           modules={[Pagination]}
           autoplay={{ delay: 10000 }}
@@ -114,7 +114,7 @@ export default function Hero({sliderItems}) {
             ))
           }
         </Swiper>
-        <button type="button" className={`${styles.genericArrow} ${styles.rightArrow}`} onClick={handleNextSlide}><ArrowForwardIosIcon/></button>
+        {/* <button type="button" className={`${styles.genericArrow} ${styles.rightArrow}`} onClick={handleNextSlide}><ArrowForwardIosIcon/></button> */}
 
       </div>
 

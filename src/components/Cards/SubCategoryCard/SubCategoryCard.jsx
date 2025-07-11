@@ -18,11 +18,15 @@ const SubCategoryCard = ({category, isOdd}) => {
             </Box>
           </Grid>
           <Grid item xs={12} md={6}>
-            <Grid container spacing={1}>
+            <Grid 
+              container 
+              spacing={1}
+              justifyContent='center'
+            >
               {category && category.gallery.map((item,index) => (
                 <Grid item xs={12} md={6} key={index}>
                   <figure className={styles.imgMask}>
-                    <Image src={item.image} width={2886} height={3606} layout="responsive" alt="categoria de servicios" />
+                    <Image src={item.image} width={600} height={1200} layout="responsive" alt="categoria de servicios" />
                   </figure> 
                 </Grid>
               ))}

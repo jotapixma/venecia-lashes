@@ -7,6 +7,9 @@
   .textBox{
     padding: 0 2rem;
     text-align: center;
+    .description{
+      padding-bottom: 16px;
+    }
   }
   &.bgGray{
     background-color: $bg_default_2;
