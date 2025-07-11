@@ -25,7 +25,7 @@ const RrssItem = ({item}) => {
 
   return ( 
     <React.Fragment>
-      <Link href={item.link} className={styles.itemLink}>
+      <Link target="_blank" href={item.link} className={styles.itemLink}>
         {iconComponent(item)}
       </Link>
     </React.Fragment>

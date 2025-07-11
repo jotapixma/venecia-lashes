@@ -1,7 +1,35 @@
 .contact{
   padding: 40px 0;
+  display: flex;
+  align-items: center;
   .contactContainer{
     max-width: 700px;
     margin: 0 auto;
+  }
+  .body{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    .list{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      gap: 4px;
+    }
+    svg{color: $green;}
+    .link{
+      margin-top: 32px;
+      color: $green;
+      font-size: 1.2rem;
+      text-decoration: underline;
+    }
+  }
+  @media only screen and (min-width: $breakpoint_md){
+    min-height: 70vh;
+    .body{
+      .list{
+        flex-direction: row;
+      }
+    }
   }
 }
