@@ -22,25 +22,11 @@ let items = [
   {
     "id": '1',
     "image": '/home/slider-home.jpg',
-    "image_mobile": '/slider-1.jpg',
+    "image_mobile": '/slider-mobile.png',
     "title": 'Naturalmente tú',
     "button_text": 'Contáctanos',
     "url_link" : '#contact'
-  },
-  // {
-  //   "id": '2',
-  //   "image": '/slider-1.jpg',
-  //   "image_mobile": '/slider-1.jpg',
-  //   "title": 'Naturalmente tú',
-  //   "button_text": 'Contáctanos',
-  //   "url_link": '#contact',
-  // },
-  // {
-  //   "id": '3',
-  //   "image": '/hero-4.jpg',
-  //   "image_mobile": 'https://picsum.photos/900/1300',
-  //   "title": 'Top 20 mejores empresas de Chile',
-  // },
+  }
 ];
 
 

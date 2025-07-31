@@ -57,7 +57,7 @@ function DrawerAppBar(props) {
           />
         </figure>
       </Link>
-      <Divider />
+      <Divider/>
       <List>
         {navItems.map((item,index) => (
           <ListItem key={index} disablePadding>
