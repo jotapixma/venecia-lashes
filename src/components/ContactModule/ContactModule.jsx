@@ -17,7 +17,7 @@ const ContactModule = () => {
                 <p> Haz clic abajo y agenda tu cita conmigo directamente vía Whatsapp</p>
                 <div><WhatsAppIcon/></div>
               </div>
-              <a className={styles.link} target="_blank" href='https://api.whatsapp.com/send/?phone=56990173191&amp;text&amp;type=phone_number&amp;app_absent=0'>Agendar</a>
+              <a className={styles.link} target="_blank" href='https://api.whatsapp.com/send/?phone=56963186991&amp;text&amp;type=phone_number&amp;app_absent=0'>Agendar</a>
             </div>
           </div>
         </Container>

@@ -18,7 +18,7 @@ const Footer = () => {
     {
       "id": '2',
       "title": 'whatsapp',
-      "link": 'https://api.whatsapp.com/send/?phone=56990173191&amp;text&amp;type=phone_number&amp;app_absent=0',
+      "link": 'https://api.whatsapp.com/send/?phone=56963186991&amp;text&amp;type=phone_number&amp;app_absent=0',
     },
     {
       "id": '3',
@@ -40,9 +40,9 @@ const Footer = () => {
             <ul className={styles.unorderList}>
               <span>Contacto</span>
               <li>
-                <Link target="_blank" href='https://api.whatsapp.com/send/?phone=56990173191&amp;text&amp;type=phone_number&amp;app_absent=0'>+56 9 9017 3191</Link>
+                <Link target="_blank" href='https://api.whatsapp.com/send/?phone=56963186991&amp;text&amp;type=phone_number&amp;app_absent=0'>+56 963186991</Link>
               </li>
-              <li><a href="mailto:venecialynette@gmail.com">venecialynette@gmail.com</a></li>
+              <li><a href="mailto:venecia.lylash@gmail.com">venecia.lylash@gmail.com</a></li>
             </ul>
           </div>
           <div className={styles.itemColumn}>

@@ -18,9 +18,11 @@ const AboutMe = () => {
           <Grid item xs={12} md={6}>
             <div className={styles.infoPanel}>
               <h2>Sobre mí</h2>
-              <p>Venecia es más que una marca; es una celebración de la belleza auténtica y diversa. Nos especializamos en el mantenimiento y extensión de pestañas, pero no nos detenemos ahí. En Venecia, también ofrecemos una selección premium de los mejores productos de pestañas del mercado.</p>
-              <p>Nuestra misión es resaltar la belleza natural del rostro a través de productos y servicios que inspiran confianza y autenticidad. Somos una marca con propósito, dedicada a motivarte a vivir tu propio concepto de belleza con calidad y elegancia.Además, en Venecia nos enorgullece ofrecer un servicio al cliente excepcional, asegurándonos de que cada experiencia sea personalizada y satisfactoria.</p>
-              <p>Descubre el verdadero potencial de tu belleza con nuestra gama de productos de alta gama, diseñados para realzar cada detalle con precisión y sofisticación.</p>
+              <p>Mi camino en el mundo de la belleza comenzó de manera inesperada, y desde entonces descubrí que transformar miradas transforma vidas.
+              Soy Venecia Colman, especialista en extensiones y lifting de pestañas, con formación en diseño y cuidado de cejas.</p>
+              <p>Desde hace más de 4 años me dedico a realzar la mirada de forma personalizada, cuidando cada detalle para que el resultado sea natural,elegante, duradero y, sobre todo, respetuoso con la salud de las pestañas. Me he formado con las mejores técnicas en Chile y Perú, aplicando tendencias y estándares internacionales para ofrecer un trabajo de alta calidad.</p>
+              <p>Aunque mi especialidad son las pestañas, también ofrezco servicios de cejas que complementan y armonizan el rostro, creando un look integral.</p>
+              <p>Para mí, cada cita es un momento especial: un espacio donde puedes relajarte, sentirte cuidada y verte como siempre soñaste. Me inspira ver cómo una mirada renovada cambia tu expresión y te devuelve esa seguridad que siempre estuvo ahí.</p>
             </div>
           </Grid>
         </Grid>
