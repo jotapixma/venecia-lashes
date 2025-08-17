@@ -20,7 +20,8 @@ const AboutMe = () => {
               <h2>Sobre mí</h2>
               <p>Mi camino en el mundo de la belleza comenzó de manera inesperada, y desde entonces descubrí que transformar miradas transforma vidas.
               Soy Venecia Colman, especialista en extensiones y lifting de pestañas, con formación en diseño y cuidado de cejas.</p>
-              <p>Desde hace más de 4 años me dedico a realzar la mirada de forma personalizada, cuidando cada detalle para que el resultado sea natural,elegante, duradero y, sobre todo, respetuoso con la salud de las pestañas. Me he formado con las mejores técnicas en Chile y Perú, aplicando tendencias y estándares internacionales para ofrecer un trabajo de alta calidad.</p>
+              <p>Desde hace más de 4 años me dedico a realzar la mirada de forma personalizada, cuidando cada detalle para que el resultado sea natural,elegante, duradero y, sobre todo, respetuoso con la salud de las pestañas.</p>
+              <p>Me he formado con las mejores técnicas en Chile y Perú, aplicando tendencias y estándares internacionales para ofrecer un trabajo de alta calidad.</p>
               <p>Aunque mi especialidad son las pestañas, también ofrezco servicios de cejas que complementan y armonizan el rostro, creando un look integral.</p>
               <p>Para mí, cada cita es un momento especial: un espacio donde puedes relajarte, sentirte cuidada y verte como siempre soñaste. Me inspira ver cómo una mirada renovada cambia tu expresión y te devuelve esa seguridad que siempre estuvo ahí.</p>
             </div>
